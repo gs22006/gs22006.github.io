@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geonpyo Kim</title>
+  <meta name="description" content="A small academic personal website for Geonpyo Kim, an undergraduate student in Computer Science and Engineering.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-name" href="#about">Geonpyo Kim</a>
+      <div class="nav-links">
+        <a href="#about">About Me</a>
+        <a href="#cv">CV</a>
+        <a href="#projects">Projects</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+        <a href="#ai-usage">AI Usage</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" class="hero section">
+      <div class="profile-card">
+        <div class="profile-image" aria-label="Profile image area">
+          <span class="avatar-placeholder" aria-hidden="true">GK</span>
+          <img src="assets/profile.png" alt="Portrait of Geonpyo Kim" onerror="this.style.display='none'">
+        </div>
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h1>Geonpyo Kim</h1>
+          <p class="intro">
+            I am a Computer Science and Engineering student interested in algorithmic theory.
+          </p>
+          <p class="education">
+            Seoul National University, Undergraduate student
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">CV / Resume</p>
+        <h2>Academic Summary</h2>
+      </div>
+      <div class="content-grid">
+        <article class="panel">
+          <h3>Education</h3>
+          <p>Seoul National University, Undergraduate student</p>
+        </article>
+        <article class="panel">
+          <h3>Skills</h3>
+          <ul class="tag-list" aria-label="Skills">
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>Experience</h3>
+          <p>Somewhat long experience of problem solving.</p>
+        </article>
+        <article class="panel">
+          <h3>Awards / Certifications</h3>
+          <p>KOI</p>
+        </article>
+      </div>
+      <p class="resource-note">
+        <a class="button-link" href="assets/cv.pdf">Download CV / Resume PDF</a>
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects / Activities</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="item-list">
+        <article class="project-item">
+          <h3>Simple SQL compiler/executor</h3>
+          <p>Built a simple SQL compiler/executor using Python and Lark.</p>
+        </article>
+        <article class="project-item">
+          <h3>Genetic algorithm study for NP problems</h3>
+          <p>
+            Conducted a simple study on using genetic algorithms to solve several NP problems,
+            including Knapsack and Minimum Vertex Cover.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Planned Courses</p>
+        <h2>Courses of Interest</h2>
+      </div>
+      <ul class="course-list">
+        <li>Data Structures</li>
+        <li>Artificial Intelligence</li>
+        <li>Introduction to Modern Cryptography</li>
+        <li>More courses related to computer science</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>How to Reach Me</h2>
+      </div>
+      <address class="contact-list">
+        <a href="mailto:dennisoda@snu.ac.kr">dennisoda@snu.ac.kr</a>
+        <a href="https://github.com/gs22006">github.com/gs22006</a>
+      </address>
+    </section>
+
+    <section id="ai-usage" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">AI Usage</p>
+        <h2>Development Assistance</h2>
+      </div>
+      <div class="ai-note">
+        <p><strong>Tool:</strong> Codex</p>
+        <p><strong>Prompt:</strong> Build a static personal website in this GitHub Pages repository.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Geonpyo Kim</p>
+  </footer>
+</body>
+</html>
